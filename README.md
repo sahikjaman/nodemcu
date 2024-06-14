@@ -1,15 +1,15 @@
 # Technical Assignment # 1
 This project demonstrates how to use an ESP8266 microcontroller to read data from an ultrasonic sensor (HC-SR04) and send it to a local server using the HTTP REST API (POST method). 
 The local server is implemented using Python's Flask framework, which receives the sensor data and responds accordingly.
+![Gambar WhatsApp 2024-06-15 pukul 00 10 19_bfb9ff64](https://github.com/sahikjaman/nodemcu/assets/79184185/b4f3ce89-d767-4fa9-a2c4-6e0477da5841)
 
 # Physical Setup
-1. Assemble the Components: Place the ESP8266 on the breadboard then connect the HC-SR04 sensor to the ESP8266 using jumper wires according to the connection diagram provided.
+1. Assemble the Components by placing the ESP8266 on the breadboard then connect the HC-SR04 sensor to the ESP8266 using jumper wires.
 2. Ensure all connections are secure.
 
 # Running the Project
 1. Upload the Arduino code to your ESP8266:
 - Open the Arduino IDE.
-- Copy and paste the provided ESP8266 code into a new sketch.
 - Configure the correct board and port.
 - Upload the code to the ESP8266.
 2. Start the Local Server:
